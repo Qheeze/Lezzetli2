@@ -2,21 +2,15 @@
 nav {
   text-align: center;
   padding: 10px 30px;
+  align-items: center;
+
   display: grid;
   grid-template-columns: 150px 150px auto 150px 150px;
   grid-template-rows: 70px;
-  align-items: center;
 }
 a {
   text-decoration: none;
 }
 ul {
   list-style: none;
-}
-
-#first {
-  grid-column-start: 1;
-}
-#second {
-  grid-column-start: 2;
 }
